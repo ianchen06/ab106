@@ -1,0 +1,20 @@
+138.197.23.220	8080	US	United States	anonymous	no	yes	5 seconds ago
+45.79.219.25	3128	US	United States	anonymous	no	yes	5 seconds ago
+47.52.33.214	3128	US	United States	anonymous	no	no	5 seconds ago
+164.58.168.2	8080	US	United States	anonymous	no	yes	5 seconds ago
+207.99.118.74	8080	US	United States	anonymous	no	yes	5 seconds ago
+154.16.127.223	8080	US	United States	elite proxy	no	yes	26 seconds ago
+35.167.230.243	8080	US	United States	anonymous	no	no	1 minute ago
+35.167.66.19	3128	US	United States	anonymous	no	yes	1 minute ago
+74.84.131.34	80	US	United States	elite proxy	no	no	1 minute ago
+12.129.82.194	8080	US	United States	anonymous	no	yes	10 minutes ago
+96.239.193.243	8080	US	United States	elite proxy	no	yes	11 minutes ago
+167.160.189.117	3128	US	United States	anonymous	no	yes	11 minutes ago
+67.231.241.6	3128	US	United States	anonymous	no	yes	21 minutes ago
+192.227.243.140	3128	US	United States	anonymous	no	no	21 minutes ago
+184.175.106.139	80	US	United States	anonymous	no	no	30 minutes ago
+47.89.41.164	80	US	United States	anonymous	no	no	31 minutes ago
+104.131.30.42	8080	US	United States	anonymous	no	yes	31 minutes ago
+155.94.193.244	1080	US	United States	transparent	no	no	41 minutes ago
+209.64.81.18	8080	US	United States	transparent	no	no	42 minutes ago
+155.94.193.245	1080	US	United States	transparent	no	no	42 minutes ago
