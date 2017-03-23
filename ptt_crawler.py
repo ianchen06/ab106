@@ -1,5 +1,6 @@
 #!/usr/bin/env pyton
 # coding: utf-8
+from datetime import datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -35,7 +36,15 @@ def crawl_page(url):
     article_dict['author'] = meta_list[0].text
     article_dict['board'] = meta_list[1].text
     article_dict['title'] = meta_list[2].text
-    article_dict['dt'] = meta_list[3].text
+	
+    dt = meta_list[3].text
+	# 判斷是否需要補0
+    if len(dt.split()[2]) < 2:
+        dt_list = dt.split() # ['Tue', 'Mar', '2', '09:11:49', '2017']
+        dt_list[2] = '0' + dt_list[2] # dt_list[2] = '0' + '2'
+        dt = ' '.join(dt_list) # ['Tue', 'Mar', '02', '09:11:49', '2017']
+	
+    article_dict['dt'] = datetime.strptime(dt, '%a %b %d %H:%M:%S %Y')
     
     article_dict['ip'] = soup.select_one("#main-content").text.split("發信站: 批踢踢實業坊(ptt.cc), 來自: ")[1].split("\n※ 文章網址:")[0].strip()
     
